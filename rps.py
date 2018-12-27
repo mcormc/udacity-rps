@@ -108,7 +108,7 @@ class Game:
         self.p2.learn(move2, move1)
 
     def play_game(self):
-        print("\n\033[31;1mGAME START!\033[0m\n")
+        print("\033[31;1mGAME START!\033[0m\n")
         for round in range(3):
             print(f"\033[32;1;4mRound {round}\033[0m")
             self.play_round()
